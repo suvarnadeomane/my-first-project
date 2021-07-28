@@ -1,0 +1,15 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-todos.component",
+      "appliesTo": "src/app/myComponent/todos/todos.component.ts",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "task-app.component",
+      "appliesTo": "src/app/app.component.ts",
+      "type": "launch"
+    }
+  ]
+}

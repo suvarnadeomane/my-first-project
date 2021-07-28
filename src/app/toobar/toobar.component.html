@@ -1,0 +1,35 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="background: linear-gradient(0deg,#009688 0,#00968890 100%);">
+    <div class="container-fluid">
+        <a class="sidenav-button" style="color:rgba(7, 5, 5, 0.8);margin-left: 20px;"><i class="fas fa-bars" aria-hidden="true" (click)="inputSideNav.toggle()"></i></a>
+        <a class="navbar-brand" style="padding-left:20px;color: rgba(0, 0, 0, 0.8);">BBBank</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" style="margin-right: 100px;" id="navbarNavDropdown">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+           
+        </ul>
+       
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <div class="photo" style="margin-top: 5px;">
+                    <img alt="profile Photo" src="assets/images/profile.jpg"/>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Profile</a></li>
+                <li><a class="dropdown-item" href="#">Change Password</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Logout</a></li>
+              </ul>
+            </li>
+           
+          </ul>
+      </div>
+    </div>
+  </nav>
